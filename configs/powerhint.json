@@ -273,7 +273,7 @@
       "Name": "CPUBWMinFreq",
       "Path": "/sys/devices/system/cpu/bus_dcvs/DDR/boost_freq",
       "Values": [
-        "2736000",
+        "2092000",
         "1555000",
         "547000"
       ],
@@ -310,7 +310,7 @@
       "Name": "LLCCBWMinFreq",
       "Path": "/sys/devices/system/cpu/bus_dcvs/LLCC/boost_freq",
       "Values": [
-        "1066000",
+        "806000",
         "600000",
         "300000"
       ],
@@ -320,7 +320,7 @@
       "Name": "L3MinFreq",
       "Path": "/sys/devices/system/cpu/bus_dcvs/L3/boost_freq",
       "Values": [
-        "1804800",
+        "1593600",
         "806400",
         "300000"
       ],
@@ -572,7 +572,7 @@
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
       "Duration": 3000,
-      "Value": "2736000"
+      "Value": "2092000"
     },
     {
       "PowerHint": "LAUNCH",
@@ -596,13 +596,13 @@
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWMinFreq",
       "Duration": 3000,
-      "Value": "1066000"
+      "Value": "806000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "L3MinFreq",
       "Duration": 3000,
-      "Value": "1804800"
+      "Value": "1593600"
     },
     {
       "PowerHint": "LAUNCH",
