@@ -123,7 +123,7 @@
       "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
       "Values": [
         "0",
-        "25"
+        "30"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -378,21 +378,9 @@
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "CPUBigClusterMinFreq",
-      "Duration": 0,
-      "Value": "1324800"
-    },
-    {
-      "PowerHint": "INTERACTION",
-      "Node": "CPULittleClusterMinFreq",
-      "Duration": 0,
-      "Value": "1363200"
-    },
-    {
-      "PowerHint": "INTERACTION",
       "Node": "UclampTAMin",
       "Duration": 0,
-      "Value": "25"
+      "Value": "30"
     },
     {
       "PowerHint": "INTERACTION",
@@ -479,12 +467,6 @@
       "Value": "600000"
     },
     {
-      "PowerHint": "INTERACTION",
-      "Node": "GPUMinFreq",
-      "Duration": 0,
-      "Value": "364000000"
-    },
-    {
       "PowerHint": "INTERACTIVE",
       "Node": "CPULittleClusterUpRateLimit",
       "Duration": 0,
@@ -531,18 +513,6 @@
       "Node": "SchedBusyHystEnableCPUs",
       "Duration": 0,
       "Value": "15"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "CPUBigClusterMinFreq",
-      "Duration": 3000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "CPULittleClusterMinFreq",
-      "Duration": 3000,
-      "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
